@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item android:id="@+id/report"
+            
+            android:icon="@drawable/report"
+            android:title="Report Suspect"
+            app:showAsAction="always"></item>
+        <item android:id="@+id/explore"
+            android:icon="@drawable/explore"
+            android:title="Explore Suspects"
+            app:showAsAction="always"></item>
+    </group>
+   <group>
+       <item android:id="@+id/block"
+           android:title="Block Adult Content"
+           android:icon="@drawable/alert"
+           app:showAsAction="always"></item>
+       <item android:id="@+id/timer"
+           android:title="Create Usage Timer"
+           android:icon="@drawable/timer"
+          app:showAsAction="always" ></item>
+
+   </group>
+
+</menu>
